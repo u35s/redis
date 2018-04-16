@@ -93,6 +93,7 @@ typedef struct aeFiredEvent {
     int mask;
 } aeFiredEvent;
 
+/* 基于程序的事件状态*/
 /* State of an event based program */
 typedef struct aeEventLoop {
     int maxfd;   /* highest file descriptor currently registered */
